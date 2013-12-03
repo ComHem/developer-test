@@ -1,4 +1,4 @@
-package se.comhem.web.test;
+package se.comhem.web.test.domain;
 
 import java.io.Serializable;
 
