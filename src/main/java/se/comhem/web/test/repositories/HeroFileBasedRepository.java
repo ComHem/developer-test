@@ -5,11 +5,6 @@ import se.comhem.web.test.domain.Hero;
 
 import java.util.Map;
 
-/**
- * Copyright (c) 2013 Com Hem AB, Stockholm. All rights reserved.
- *
- * @author Steve Carrigan
- */
 @Repository("fileBasedRepository")
 public class HeroFileBasedRepository implements HeroRepository{
 

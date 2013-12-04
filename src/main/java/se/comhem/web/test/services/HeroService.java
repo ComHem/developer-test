@@ -7,12 +7,6 @@ import se.comhem.web.test.repositories.HeroRepository;
 
 import java.util.Map;
 
-/**
- * Copyright (c) 2013 Com Hem AB, Stockholm. All rights reserved.
- *
- * @author Steve Carrigan
- */
-
 @Service
 public class HeroService {
 

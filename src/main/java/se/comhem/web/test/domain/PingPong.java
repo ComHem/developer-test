@@ -2,11 +2,6 @@ package se.comhem.web.test.domain;
 
 import java.io.Serializable;
 
-/**
- * Copyright (c) 2013 Com Hem AB, Stockholm. All rights reserved.
- *
- * @author Steve Carrigan
- */
 public class PingPong implements Serializable {
 
     private String message;

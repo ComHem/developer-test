@@ -14,12 +14,6 @@ import se.comhem.web.test.services.HeroService;
 
 import java.util.Map;
 
-/**
- * Copyright (c) 2013 Com Hem AB, Stockholm. All rights reserved.
- *
- * @author Steve Carrigan
- */
-
 @Controller
 @EnableWebMvc
 @RequestMapping("heroes")

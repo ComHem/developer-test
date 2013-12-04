@@ -15,11 +15,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
 
-/**
- * Copyright (c) 2013 Com Hem AB, Stockholm. All rights reserved.
- *
- * @author Steve Carrigan
- */
 public class PingPongIntegrationTest {
 
     MockMvc mockMvc;

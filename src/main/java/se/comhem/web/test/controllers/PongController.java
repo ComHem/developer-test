@@ -7,12 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import se.comhem.web.test.domain.PingPong;
 
-/**
- * Copyright (c) 2013 Com Hem AB, Stockholm. All rights reserved.
- *
- * @author Steve Carrigan
- */
-
 @Controller
 @EnableWebMvc
 @RequestMapping("ping")

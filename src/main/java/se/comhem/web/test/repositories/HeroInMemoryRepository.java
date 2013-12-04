@@ -8,11 +8,6 @@ import se.comhem.web.test.domain.MarvelHero;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Copyright (c) 2013 Com Hem AB, Stockholm. All rights reserved.
- *
- * @author Steve Carrigan
- */
 @Repository("inMemoryRepository")
 public class HeroInMemoryRepository implements HeroRepository {
 
