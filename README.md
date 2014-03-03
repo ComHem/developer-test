@@ -14,6 +14,7 @@ The test requires you to have Java 7, Maven and an Internet connection.
 2. Add a method to the REST api that enables the client to save Heroes.<br/>
 3. Replace the in-memory based repository with a file based repository.<br/>
 4. Feel free to refactor the code as you see fit as long as you make use of Spring framework and maven.<br/>
+5. Create a zip file of your project and mail it.
 
 
 
