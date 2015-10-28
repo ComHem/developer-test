@@ -4,7 +4,7 @@ developer-test
 The test requires you to have Java 7, Maven and an Internet connection.
 <p>
 <br/>
-<b>Verify </b><br/>
+<b>Run and Verify</b><br/>
 
 1. Goto project root<br/>
 2. Type mvn install<br/>
