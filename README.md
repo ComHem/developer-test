@@ -1,24 +1,30 @@
 developer-test
 ==============
-<p>
-The test requires you to have Java 7, Maven and an Internet connection.
-<p>
-<br/>
-<b>Run and Verify</b><br/>
+## Assignment
 
-1. Goto project root<br/>
-2. Type mvn install<br/>
-3. Type mvn jetty:run<br/> 
-4. Browse to http://localhost:8080/developer-test/ping using Firefox, the response should be Pong<br/>
-( You can also type: curl -i -H "Accept: application/json" -X GET http://localhost:8080/developer-test/ping )<br/><br/>
+1. Make it possible to add new Heroes through a RESTful API.
+2. Replace the In-memory-based repository with a file-based repository(in textual data format like Json or XML, not a SQL database).
+3. Make the code thread-safe and robust. For example with error handling etc.
+4. Write tests that proves that your code works as expected.
 
-<b>Assignment</b><br/>
+### Other
+- Your are free to refactor the code as much as you like, as long as you use Spring Framework and Maven.
+- Please comment solutions that you feel needs to be more explained. For example; why you solved it in this way, or how it could be solved in a better way.
 
-1. Make it possible for clients to save Heroes through the REST API.<br/>
-2. Replace the in-memory based repository with a file based repository.<br/>
-3. Make the code more robust with error handling, tests etc...<br/>
-4. Feel free to refactor the code as you like to have it, as long as you still uses Spring framework and maven.<br/>
-5. Create a zip file of your project and send it to your contact person.
+### ... and finally 
+Create a zip file of your project and send it to us. 
+
+## Setup
+**Prerequisites**: Java 7+, Maven and an Internet connection.
+
+#### Run and verify
+1. Go to the project root
+2. Type `mvn install`
+3. Type `mvn jetty:run`
+4. Browse to http://localhost:8080/developer-test/ping using a browser. The response text should be 'Pong'
+(You can also type: `curl -i -H "Accept: application/json" -X GET http://localhost:8080/developer-test/ping`)
+
+
 
 
 
