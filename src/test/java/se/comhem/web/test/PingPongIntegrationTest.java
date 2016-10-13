@@ -17,10 +17,10 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standal
 
 public class PingPongIntegrationTest {
 
-    MockMvc mockMvc;
+    private MockMvc mockMvc;
 
     @InjectMocks
-    PongController controller;
+    private PongController controller;
 
     @Before
     public void setup() {
@@ -38,10 +38,7 @@ public class PingPongIntegrationTest {
                     .andExpect(content().string("\"pong\""));
 
         } catch(Exception e) {
-
             fail("Exception: " + e.fillInStackTrace());
-
         }
     }
-
 }

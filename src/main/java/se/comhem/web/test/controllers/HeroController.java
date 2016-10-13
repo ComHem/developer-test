@@ -15,7 +15,6 @@ import se.comhem.web.test.services.HeroService;
 import java.util.Map;
 
 @Controller
-@EnableWebMvc
 @RequestMapping("heroes")
 public class HeroController {
 

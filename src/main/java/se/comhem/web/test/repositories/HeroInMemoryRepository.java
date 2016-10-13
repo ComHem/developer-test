@@ -14,6 +14,7 @@ public class HeroInMemoryRepository implements HeroRepository {
     private Map<Integer,Hero> repository = new HashMap<Integer,Hero>();
 
     public HeroInMemoryRepository() {
+
         save(new MarvelHero("SuperMan","Kryptonite",Gender.MAN));
         save(new MarvelHero("Wonder Woman","Having her hands tied by a man",Gender.WOMAN));
         save(new MarvelHero("Power Girl","Any raw, unprocessed natural material",Gender.WOMAN));
